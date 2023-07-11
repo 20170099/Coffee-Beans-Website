@@ -1,5 +1,132 @@
-body
-{
-    box-sizing: border-box;
-    background-color: blue;
+body {
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+
 }
+
+.ellipse{
+    background-image: url("Ellipse 1.png");
+    background-repeat: no-repeat; 
+    width: 100%;
+    padding: 0%;
+   margin-top: ;
+}
+
+
+
+.navDiv{
+    background-color: #88B9BC; 
+}
+
+.search{
+    display: flex;
+    width: 200px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.search-input{
+    border: none;
+    outline: none;
+}
+
+.search-icon{
+    margin: 5px;
+}
+
+
+
+.navCenter{
+    float: none;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navRight{
+    display: flex;
+    float: right;
+    padding: 14px 16px;
+    margin-right: 2%;
+}
+
+.cartIcone{
+    margin-top: -2%;
+}
+
+.navlist, a{
+    text-align: center;
+    padding: 14px 16px;
+    font-family: Raleway;
+
+}
+
+
+a:link{
+    color: #765843;
+    text-decoration: none;
+
+}
+
+a:visited{
+    color: #765843;
+}
+
+a:hover{
+    color: #5B412E;;
+    text-decoration: underline;
+    text-decoration: underline;
+}
+
+a:active{
+    color: #5B412E;
+    text-decoration: underline;
+}
+
+  .signUpBtn{
+    float: right;
+    margin-top: 1.5%;
+    margin-right: 2%;
+    border-radius: 50px;
+    height: 30px;
+    width: 100px;
+    background-color: #5B412E;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .buyNowBtn{
+    height: 30px;
+    width: 150px;
+    border-radius: 50px;
+    background-color: #5B412E;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 34%;
+  }
+
+  .homeHeader{
+    text-align: center;
+    margin-top: 12%;
+  }
+
+.homePara{
+    text-align: left;
+    margin-top: -2%;
+    margin-left: 28%;
+    color: #fff;
+
+}
+
+#homeImage{
+    text-align: center;
+    width: 650px;
+    margin-left: 40%;
+    margin-bottom: 25%;
+    margin-top: -10%;
+}
+
