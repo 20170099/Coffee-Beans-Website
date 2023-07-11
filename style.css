@@ -11,7 +11,7 @@ body {
   margin-top: -12%;
   background-size: 100%;
   background-position: center;
-  border-radius: 0 0 1000% 1000%;
+ 
 }
 
 .navDiv {
@@ -105,26 +105,29 @@ a:active {
   color: #fff;
   cursor: pointer;
   text-align: center;
-  margin-left: 34%;
+  margin-left: 31%;
+
   
 }
 
 .homeHeader {
   text-align: center;
   margin-top: 12%;
+  margin-left: 10%;
+  background-color: rgb(0, 60, 255);
 }
 
 .homePara {
   text-align: left;
-  margin-top: -2%;
-  margin-left: 28%;
+  margin-top: 10%;
+  margin-left: 26%;
   color: #fff;
+  background-color: red;
 }
 
 #homeImage {
   text-align: center;
-  width: 650px;
+  width: 750px;
   margin-left: 40%;
-  margin-bottom: 25%;
-  margin-top: -10%;
+  background-color: red;
 }
