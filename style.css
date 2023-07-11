@@ -4,14 +4,11 @@ body {
   margin: 0%;
 }
 
-.ellipse {
+.homebody{
   background-image: url("Ellipse 1.png");
   background-repeat: no-repeat;
-  padding: 0%;
-  margin-top: -12%;
   background-size: 100%;
   background-position: center;
- 
 }
 
 .navDiv {
@@ -56,6 +53,7 @@ body {
 
 .cartIcone {
   margin-top: -2%;
+  cursor: pointer;
 }
 
 .navlist,
@@ -95,6 +93,29 @@ a:active {
   background-color: #5b412e;
   color: #fff;
   cursor: pointer;
+  border: none;
+}
+
+.homeSection{
+  padding: 0%;
+  display: flex;
+  flex-direction: column;
+  margin-top: -3%;
+ 
+}
+
+.HomeContent{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20%;
+  margin-left: 50%;
+}
+
+
+.homePara {
+  text-align: left;
+  color: #fff;
+  margin-left: -13%;
 }
 
 .buyNowBtn {
@@ -105,29 +126,179 @@ a:active {
   color: #fff;
   cursor: pointer;
   text-align: center;
-  margin-left: 31%;
-
-  
-}
-
-.homeHeader {
-  text-align: center;
-  margin-top: 12%;
-  margin-left: 10%;
-  background-color: rgb(0, 60, 255);
-}
-
-.homePara {
-  text-align: left;
-  margin-top: 10%;
-  margin-left: 26%;
-  color: #fff;
-  background-color: red;
+  margin-left: -0.2%;
+  border: none; 
 }
 
 #homeImage {
   text-align: center;
   width: 750px;
-  margin-left: 40%;
-  background-color: red;
+  margin-left: 50%;
+  margin-top: -12%;
+}
+
+.profileIcon
+{
+  float: right;
+  margin-top: -2%;
+  margin-right: 2%;
+  cursor: pointer;
+}
+
+.addContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.add1{
+  display: flex;
+  flex-direction: row;
+  background-color: #F4F4F4;
+  border-radius: 50px;
+  width: 800px;
+  height:250px;
+  margin-top: 2%;
+  margin-left: 3.5%;
+  padding: 14px 16px;
+}
+
+.add1Content{
+align-content: center;
+margin-top: -20%;
+
+}
+
+.add1btn{
+  height: 50px;
+  width: 200px;
+  border-radius: 50px;
+  background-color: #88b9bc;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  font-family: Raleway;
+  font-size: 20px;
+   margin-left: -11%;
+
+}
+
+.add1Img{
+  margin-top: -26%;
+}
+
+.add2Img{
+  margin-top: 8%;
+}
+
+.add3Img{
+  margin-top: 5%;
+}
+
+.catigories{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+  margin-left: 2.5%;
+
+}
+
+.catigoriesBtn1{
+  border-radius: 50px;
+  height: 50px;
+  width: 150px;
+  background-color: #88b9bc;
+  color: #5b412e;
+  cursor: pointer;
+  border: none;
+  font-family: Raleway;
+  font-size: 14px;
+  padding: 14px 16px;
+  margin-right: 2.5%;
+
+}
+
+.catigoriesBtn2{
+  border-radius: 50px;
+  height: 50px;
+  width: 150px;
+  background-color: #F4F4F4;
+  color: #5b412e;
+  cursor: pointer;
+  border: none;
+  font-family: Raleway;
+  font-size: 14px;
+  padding: 14px 16px;
+  margin-right: 2.5%;
+  
+
+}
+
+.productsContainer{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+  margin-left: 1%;
+  
+  
+}
+
+.items{
+  display: flex;
+  flex-direction: column;
+  background-color: #F4F4F4;
+  width: 280px;
+  height: 470px;
+  border-radius: 40px;
+  padding: 14px 16px;
+  align-items: center;
+  margin-left: 2%;;
+  
+}
+
+.heart{
+  margin-left: 80%;
+  padding: 14px 16px;
+}
+
+.coffeeProduct{
+  align-items: center;
+  margin-top: -13%;
+}
+
+.productDetails{
+  margin-right: 13%;
+  margin-top: -8%;
+}
+
+.moreDetails{
+  display: flex;
+  flex-direction: row;
+}
+
+.price{
+  display: flex;
+  flex-direction: row;
+  
+
+}
+
+.reviews{
+  display: flex;
+  flex-direction: row;
+  padding: 14px 16px;
+}
+
+.itembtn{
+  border-radius: 50px;
+  height: 30px;
+  width: 120px;
+  background-color: #88b9bc;
+  color: #5b412e;
+  cursor: pointer;
+  border: none;
+  font-family: Raleway;
+  font-size: 14px;
+  margin-left: 4.5%;
+ 
+
 }
