@@ -238,6 +238,7 @@ margin-top: -20%;
   flex-direction: row;
   margin-top: 2%;
   margin-left: 1%;
+  margin-bottom: 2%;
   
   
 }
@@ -300,5 +301,28 @@ margin-top: -20%;
   font-size: 14px;
   margin-left: 4.5%;
  
-
 }
+
+.footer{
+  background-color: #88b9bc;
+}
+
+.footerContainer{
+  display: flex;
+  flex-direction: row;
+  margin-left: 45%;
+}
+
+.copyRights{
+  color: #fff;
+  font-family: Raleway;
+}
+
+.policy{
+  color: #5b412e;
+  font-family: Raleway;
+}
+
+
+
+/* Media Quairy*/
