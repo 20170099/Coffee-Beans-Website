@@ -8,17 +8,33 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body class="homebody">
-    <div class="navDiv">
+
+    <!-- Responsive Navigation Bar -->
+    <div class="topnav" id="myTopnav">
+        <a class="logo" href="index.html"> <img src="Coffee_Logo_copy-removebg-preview.png" width="90px" alt="logo" class="logo">
+        <a href="index.html" class="active">Home</a>
+        <a href="products.html">Products</a>
+        <a href="aboutUs.html">About Us</a>
+        <a href="contactUs.html">Contact Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+    <!-- Desktop Viewport navigation -->
+    <div class="navDiv" id="myNav">
         
-            <a class="logo" href="index.html"> <img src="Coffee_Logo_copy-removebg-preview.png" width="90px" alt="logo">
+            <a class="logo" href="index.html"> <img src="Coffee_Logo_copy-removebg-preview.png" width="90px" alt="logo" class="logo">
             <div class="navCenter">
             <a class="navlist" href="index.html">Home</a>
             <a class="navlist" href="products.html">Products</a>
             <a class="navlist" href="aboutUs.html">About Us</a>
             <a class="navlist" href="contactUs.html">Contact Us</a>
+              </a>
             </div>
             <div class="navRight">
                 <div class="search">
@@ -32,8 +48,8 @@
 
     <div class="homeSection">
         <div class="HomeContent"> 
-            <h1 class="homeHeader" style=" color: #5B412E; font-size: 48px ; font-family:Sofia" , sans-serif>Premuim Coffee Beans </h1>
-            <pre class="homePara" style="font-size:24px; font-family: Raleway;">                Where you can get your fresh beans 
+            <h1 class="homeHeader" style=" color: #5B412E; font-family:Sofia" , sans-serif>Premuim Coffee Beans </h1>
+            <pre class="homePara" style="font-family: Raleway;">                Where you can get your fresh beans 
                 and know more about the source 
                 of your favorite coffee </pre>
                 <input type="button" class="buyNowBtn" value="Buy Now"/>
@@ -42,6 +58,17 @@
     <divc class="homeimg"> <img id="homeImage" src="Group 499.png" alt="Home image"></div>
         
     </div>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
 </body>
 
 </html>
