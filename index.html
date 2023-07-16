@@ -13,18 +13,6 @@
 
 <body class="homebody">
 
-    <!-- Responsive Navigation Bar -->
-    <div class="topnav" id="myTopnav">
-        <a class="logo" href="index.html"> <img src="Coffee_Logo_copy-removebg-preview.png" width="90px" alt="logo" class="logo">
-        <a href="index.html" class="active">Home</a>
-        <a href="products.html">Products</a>
-        <a href="aboutUs.html">About Us</a>
-        <a href="contactUs.html">Contact Us</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-
     <!-- Desktop Viewport navigation -->
     <div class="navDiv" id="myNav">
         
@@ -42,7 +30,7 @@
                     <input type="text" placeholder="Search" class="search-input">
                 </div>
                 <a class="cartIcone"> <img src="cart.png" alt="cart" width="25px" height="25px"></a>
-                <input class="signUpBtn" type="button" value="Sign Up" />
+                <input class="signUpBtn" type="button" value="Sign Up" onclick="window.location.href='signUp.html';"/>
             </div>
     </div>
 
@@ -59,16 +47,6 @@
         
     </div>
 
-    <script>
-        function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
-        }
-        </script>
 </body>
 
 </html>
