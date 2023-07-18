@@ -14,25 +14,23 @@
 <body class="homebody">
 
     <!-- Desktop Viewport navigation -->
+  
     <div class="navDiv" id="myNav">
         
-            <a class="logo" href="index.html"> <img src="Coffee_Logo_copy-removebg-preview.png" width="90px" alt="logo" class="logo">
-            <div class="navCenter">
+            <a class="logo" href="index.html"> <img src="Coffee_Logo_copy-removebg-preview.png" width="90px" alt="logo" class="logo"> </a>
             <a class="navlist" href="index.html">Home</a>
             <a class="navlist" href="products.html">Products</a>
             <a class="navlist" href="aboutUs.html">About Us</a>
             <a class="navlist" href="contactUs.html">Contact Us</a>
-              </a>
-            </div>
             <div class="navRight">
                 <div class="search">
                     <img class="search-icon" src="search.png" width="25px" height="25px" alt="search">
                     <input type="text" placeholder="Search" class="search-input">
                 </div>
-                <a class="cartIcone"> <img src="cart.png" alt="cart" width="25px" height="25px"></a>
+                <a class="cartIcone"> <img src="cart.png" alt="cart" width="25px" height="25px" class="cartImage"></a>
                 <input class="signUpBtn" type="button" value="Sign Up" onclick="window.location.href='signUp.html';"/>
             </div>
-    </div>
+   </div>
 
     <div class="homeSection">
         <div class="HomeContent"> 
@@ -46,6 +44,17 @@
     <divc class="homeimg"> <img id="homeImage" src="Group 499.png" alt="Home image"></div>
         
     </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myNav");
+        if (x.className === "navDiv") {
+          x.className += " responsive";
+        } else {
+          x.className = "navDiv";
+        }
+      }
+      </script>
 
 </body>
 

@@ -9,50 +9,52 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <!-- navigation -->
-    <div class="navDiv">
+       <!-- Desktop Viewport navigation -->
+  
+    <div class="navDiv" id="myNav">
         
-        <a class="logo" href="index.html"> <img src="Coffee_Logo_copy-removebg-preview.png" width="90px"></a>
-        <div class="navCenter">
-        <a class="navlist" href="index.html">Home</a>
-        <a class="navlist" href="products.html">Products</a>
-        <a class="navlist" href="aboutUs.html">About Us</a>
-        <a class="navlist" href="contactUs.html">Contact Us</a>
-        </div>
-        <div class="navRight">
-            <div class="search">
-                <img class="search-icon" src="search.png" width="25px" height="25px">
-                <input type="text" placeholder="Search" class="search-input">
+            <a class="logo" href="index.html"> <img src="Coffee_Logo_copy-removebg-preview.png" width="90px" alt="logo" class="logo"> </a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+            <a class="navlist" href="index.html">Home</a>
+            <a class="navlist" href="products.html">Products</a>
+            <a class="navlist" href="aboutUs.html">About Us</a>
+            <a class="navlist" href="contactUs.html">Contact Us</a>
+            <div class="navRight">
+                <div class="search">
+                    <img class="search-icon" src="search.png" width="25px" height="25px" alt="search">
+                    <input type="text" placeholder="Search" class="search-input">
+                </div>
+                <a class="cartIcone"> <img src="cart.png" alt="cart" width="25px" height="25px" class="cartImage"></a>
+                <input class="signUpBtn" type="button" value="Sign Up" onclick="window.location.href='signUp.html';"/>
             </div>
-            <a class="cartIcone"> <img src="cart.png" alt="cart" width="25px" height="25px"></a>
-            <a class="profileIcon"> <img src="profile.png" alt="profile" width="18px" height="24px"></a>
-        </div>
-</div>
+   </div>
 <!-- Adds -->
     <div class="addContainer">
         <div class="add1">
-            <div class="add1Img"><img src="cup addvertisment.png" width="290px"></div>
+            <div><img src="cup addvertisment.png" class="add1Img"></div>
             <div class="add1Content">
-                <h1 style=" color: #5B412E; font-size: 40px ; font-family:Sofia; margin-top: 70%; margin-left: 3%;">30% Off</h1>
-                <p style=" color: #5B412E; font-size: 18px ; font-family:Raleway; margin-top: -5%;">On All Types</p>
+                <h1 class=" add1head">30% Off</h1>
+                <p class="addpara">On All Types</p>
                 <input type="button" value="Buy Now" class="add1btn">
             </div>
         </div>
 
         <div class="add1">
-            <div class="add2Img"><img src="9-2-coffee-beans-png-clipart.png" width="280px"></div>
-            <div class="add1Content">
-                <h1 style=" color: #5B412E; font-size: 40px ; font-family:Sofia; margin-top: 70%; margin-left: 3%;">50% Off</h1>
-                <p style=" color: #5B412E; font-size: 18px ; font-family:Raleway; margin-top: -5%;">On Selected Types</p>
+            <div><img src="9-2-coffee-beans-png-clipart.png" class="add2Img"></div>
+            <div class="add2Content">
+                <h1 class=" add2head">50% Off</h1>
+                <p class="addpara">On Selected Types</p>
                 <input type="button" value="Buy Now" class="add1btn">
             </div>
         </div>
 
         <div class="add1">
-            <div class="add3Img"><img src="sack-with-brown-roasted-coffee-beans-burlap-sack-scoop-with-grains-white-background_303157-464-removebg-preview.png" width="330px"></div>
-            <div class="add1Content">
-                <h1 style=" color: #5B412E; font-size: 40px ; font-family:Sofia; margin-top: 70%; margin-left: 3%;">10% Off</h1>
-                <p style=" color: #5B412E; font-size: 18px ; font-family:Raleway; margin-top: -5%;">On Local Beans</p>
+            <div><img src="coffee-beans-bag-sackcloth-white-with-blank-tag_99293-976-removebg-preview.png" class="add3Img"></div>
+            <div class="add3Content">
+                <h1 class=" add3head">10% Off</h1>
+                <p class="addpara">On Local Beans</p>
                 <input type="button" value="Buy Now" class="add1btn">
             </div>
         </div>
@@ -85,8 +87,8 @@
 
                 <div class="moreDetails">
                     <div class="price">
-                        <p style="color: #5B412E; font-family: Raleway; font-size: 20px; margin-right: 10px ;">SAR </p>
-                        <p style="color: #88b9bc; font-family: Raleway; font-size: 20px;"> 110</p>
+                        <p style="color: #88b9bc; font-family: Raleway; font-size: 16px; margin-right: 10px ; margin-top: -3%;">SAR </p>
+                        <p style="color: #5B412E; font-family: Raleway; font-size: 25px; margin-top: -15%;"> 110</p>
                     </div>
 
                     <div class="reviews">
@@ -112,8 +114,8 @@
 
                 <div class="moreDetails">
                     <div class="price">
-                        <p style="color: #5B412E; font-family: Raleway; font-size: 20px; margin-right: 10px ;">SAR </p>
-                        <p style="color: #88b9bc; font-family: Raleway; font-size: 20px;"> 110</p>
+                        <p style="color: #88b9bc; font-family: Raleway; font-size: 16px; margin-right: 10px ; margin-top: -3%;">SAR </p>
+                        <p style="color: #5B412E; font-family: Raleway; font-size: 25px; margin-top: -15%;"> 110</p>
                     </div>
 
                     <div class="reviews">
@@ -139,8 +141,8 @@
 
                 <div class="moreDetails">
                     <div class="price">
-                        <p style="color: #5B412E; font-family: Raleway; font-size: 20px; margin-right: 10px ;">SAR </p>
-                        <p style="color: #88b9bc; font-family: Raleway; font-size: 20px;"> 110</p>
+                        <p style="color: #88b9bc; font-family: Raleway; font-size: 16px; margin-right: 10px ; margin-top: -3%;">SAR </p>
+                        <p style="color: #5B412E; font-family: Raleway; font-size: 25px; margin-top: -15%;" > 110</p>
                     </div>
 
                     <div class="reviews">
@@ -166,8 +168,8 @@
 
                 <div class="moreDetails">
                     <div class="price">
-                        <p style="color: #5B412E; font-family: Raleway; font-size: 20px; margin-right: 10px ;">SAR </p>
-                        <p style="color: #88b9bc; font-family: Raleway; font-size: 20px;"> 110</p>
+                        <p style="color: #88b9bc; font-family: Raleway; font-size: 16px; margin-right: 10px ; margin-top: -3%;">SAR </p>
+                        <p style="color: #5B412E; font-family: Raleway; font-size: 25px; margin-top: -15%;"> 110</p>
                     </div>
 
                     <div class="reviews">
@@ -193,8 +195,8 @@
 
                 <div class="moreDetails">
                     <div class="price">
-                        <p style="color: #5B412E; font-family: Raleway; font-size: 20px; margin-right: 10px ;">SAR </p>
-                        <p style="color: #88b9bc; font-family: Raleway; font-size: 20px;"> 110</p>
+                        <p style="color: #88b9bc; font-family: Raleway; font-size: 16px; margin-right: 10px ; margin-top: -3%;">SAR </p>
+                        <p style="color: #5B412E; font-family: Raleway; font-size: 25px; margin-top: -15%;"> 110</p>
                     </div>
 
                     <div class="reviews">
